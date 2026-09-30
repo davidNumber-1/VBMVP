@@ -533,4 +533,82 @@ table.og-grid tr.og-empty > td {
         border-bottom: 1px solid #000;
     }
 }
------g
+-----
+
+body {
+    background: #f4f6f9;
+    color: #1f2933;
+}
+
+.app-navbar {
+    background: #0a3d6b;
+}
+
+.app-navbar-inner {
+    max-width: 1680px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.app-navbar .navbar-brand {
+    font-weight: 600;
+}
+
+.role-card {
+    max-width: 640px;
+    margin: 3rem auto;
+}
+
+.role-list {
+    list-style: none;
+    margin: 0 0 .5rem;
+    padding: 0;
+}
+
+.role-list li {
+    position: relative;
+    margin-bottom: .5rem;
+    background: #fff;
+    border: 1px solid #d9dfe7;
+    border-radius: .5rem;
+}
+
+.role-list li input {
+    position: absolute;
+    left: .9rem;
+    top: 1rem;
+}
+
+.role-list li label {
+    display: block;
+    padding: .65rem .9rem .65rem 2.4rem;
+    cursor: pointer;
+}
+
+.role-list li:has(input:checked) {
+    border-color: #0a3d6b;
+    box-shadow: 0 0 0 .15rem rgba(10, 61, 107, .12);
+}
+
+
+.detail-list {
+    display: grid;
+    grid-template-columns: minmax(10rem, 14rem) 1fr;
+    gap: .25rem 1rem;
+    margin: 0;
+}
+
+.detail-list dt {
+    font-weight: 600;
+    color: #5f6b7a;
+    font-size: .8125rem;
+}
+
+.detail-list dd {
+    margin: 0;
+    font-size: .875rem;
+}
+
+
+
+
